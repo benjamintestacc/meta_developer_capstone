@@ -1,19 +1,15 @@
 import './App.css';
-import Header from './Header';
-import Nav from './Nav';
-import Main from './Main';
-import Footer from './Footer';
+import Nav from './components/sections/header/Nav'
+import Footer from './components/sections/footer/Footer'
+import Routing from './components/Routing';
 
 function App() {
   return (
-    <div className="App">
-        <>
-    	    <Header />
-          <Nav />
-          <Main />
-          <Footer />
-        </>
-    </div>
+      <>
+        <Nav />
+        <Routing />
+        <Footer />
+      </>
   );
 }
 
