@@ -1,16 +1,16 @@
-#specials{
+#testimonials{
     display: flex;
     flex-direction: column;
     margin: 50px;
 }
 
-#specials-cards-list{
+#testimonials-cards-list{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 20px;
 }
 
-.specials-card{
+.testimonials-card{
     width: 100%;
 }
 

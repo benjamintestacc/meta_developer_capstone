@@ -7,7 +7,6 @@
     position: relative;
     padding: 0.5rem 0rem;
     background-color: #fff;
-    color: black;
     margin: auto;
 }
 .brand-name {
@@ -28,6 +27,7 @@
   text-decoration: none;
   display: block;
   width: 100%;
+  color: black;
 }
 /* .navigation-menu li a {
   text-decoration: none;

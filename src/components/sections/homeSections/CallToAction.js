@@ -1,7 +1,7 @@
 import React from "react";
 import './CallToAction.css';
 import { Link } from "react-router-dom";
-import Img from "../img/greek_salad.jpg"
+import Img from "../../../img/salad3.jpg"
 
 const CallToAction = () => {
     return (

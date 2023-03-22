@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from "react";
 import Header from "./Header";
 import "./Nav.css";
-import Hamburger from '../../../img/hamburger.svg';
+import Hamburger from '../../../img/icons/menu.svg';
 import { BrowserRouter as Router, Link, Route } from "react-router-dom";
 
 const Nav = () => {

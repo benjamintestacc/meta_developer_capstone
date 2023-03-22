@@ -2,8 +2,38 @@
     display: flex;
     width: 100%;
     justify-content: space-evenly;
-    max-width: 1440px;
-    margin: auto;
+    padding-bottom: 40px;
+    background-color: #495e57;
+    padding-top: 40px;
+    color: white;
+    text-decoration: none;
+
+}
+
+.container img {
+    height: 150px;
+    width: auto;
+}
+.link{
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+ul {
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+h2{
+    margin: 0;
+}
+
+#logo{
+    background-color: white;
+    height: 150px;
 }
 
 @media screen and (max-width: 768px) {
