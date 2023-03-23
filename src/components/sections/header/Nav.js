@@ -23,26 +23,60 @@ const Nav = () => {
           isNavExpanded ? "navigation-menu expanded" : "navigation-menu"
         }
       >
-        <div className="navigation-menu">
-          <Link className="link" to="/">
-            Home
-          </Link>
-          <Link className="link" to="/about">
-            About
-          </Link>
-          <Link className="link" to="/menu">
-            Menu
-          </Link>
-          <Link className="link" to="/reservations">
-            Reservations
-          </Link>
-          <Link className="link" to="/order">
-            Order
-          </Link>
-          <Link className="link" to="/login">
-            Login
-          </Link>
-        </div>
+        <Link
+          className="link"
+          to="/"
+          onClick={() => {
+            setIsNavExpanded(!isNavExpanded);
+          }}
+        >
+          Home
+        </Link>
+        <Link
+          className="link"
+          to="/about"
+          onClick={() => {
+            setIsNavExpanded(!isNavExpanded);
+          }}
+        >
+          About
+        </Link>
+        <Link
+          className="link"
+          to="/menu"
+          onClick={() => {
+            setIsNavExpanded(!isNavExpanded);
+          }}
+        >
+          Menu
+        </Link>
+        <Link
+          className="link"
+          to="/reservations"
+          onClick={() => {
+            setIsNavExpanded(!isNavExpanded);
+          }}
+        >
+          Reservations
+        </Link>
+        <Link
+          className="link"
+          to="/order"
+          onClick={() => {
+            setIsNavExpanded(!isNavExpanded);
+          }}
+        >
+          Order
+        </Link>
+        <Link
+          className="link"
+          to="/login"
+          onClick={() => {
+            setIsNavExpanded(!isNavExpanded);
+          }}
+        >
+          Login
+        </Link>
       </div>
     </nav>
   );

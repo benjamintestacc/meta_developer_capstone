@@ -9,31 +9,7 @@
   background-color: #f4ce14;
 }
 
-.section-right img {
+.right img {
   width: 100%;
   height: auto;
-}
-
-.btn {
-  padding: 15px 30px;
-  font-size: 16pt;
-  font-weight: 600;
-  background-color: #f4ce14;
-  color: #333333;
-  border-radius: 20px;
-  border: none;
-}
-
-.btn:hover {
-  cursor: pointer;
-  background-color: #333333;
-  color: #f4ce14;
-  transition: 0.3s;
-}
-
-@media screen and (max-width: 768px) {
-  .call-to-action {
-    display: grid;
-    grid-template-columns: 1fr;
-  }
 }

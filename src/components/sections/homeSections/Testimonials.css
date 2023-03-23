@@ -19,3 +19,17 @@ img {
   width: 100%;
   object-fit: cover;
 }
+
+@media screen and (max-width: 940px) {
+  #testimonials-cards-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  #testimonials-cards-list {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}

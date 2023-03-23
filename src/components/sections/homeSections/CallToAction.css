@@ -9,8 +9,6 @@
   background-color: #495e57;
 }
 
-.section-left {
-}
 .section-right img {
   width: 100%;
   height: auto;
@@ -36,6 +34,19 @@
 @media screen and (max-width: 768px) {
   .call-to-action {
     display: grid;
+    gap: 1rem;
     grid-template-columns: 1fr;
+    justify-content: center;
+    padding: 60px 50px 60px 50px;
+    color: #fff;
+    width: 100%;
+    background-color: #495e57;
+  }
+  .section-right {
+    margin: auto;
+  }
+  .section-right img {
+    width: 80%;
+    height: auto;
   }
 }

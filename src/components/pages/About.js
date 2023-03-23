@@ -4,7 +4,7 @@ import "./About.css";
 function About() {
   return (
     <section className="placeholder">
-      <div className="section-left">
+      <div className="left">
         <h1>About</h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -16,7 +16,7 @@ function About() {
           culpa qui officia deserunt mollit anim id est laborum.
         </p>
       </div>
-      <div className="section-right">
+      <div className="right">
         <img src={Img} alt="Serving delicious dish" />
       </div>
     </section>
