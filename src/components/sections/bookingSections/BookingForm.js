@@ -13,7 +13,7 @@ function Reservations(props) {
   const [occasion, setOccasion] = useState("Birthday");
 
   const [finalTime, setFinalTime] = useState(
-    props.availableTimes.map((times, i) => <option key={i}>{times}</option>)
+    props.availableTimes.map((times, i) => <option value={times} key={i}>{times}</option>)
   );
 
   function handleDateChange(e) {
@@ -24,7 +24,7 @@ function Reservations(props) {
 
     props.updateTimes(date);
 
-    setFinalTime(props.availableTimes.map((times) => <option>{times}</option>));
+    setFinalTime(props.availableTimes.map((times) => <option value={times}>{times}</option>));
   }
   const navigate = useNavigate();
   const handleSubmit = (e) => {
@@ -40,7 +40,7 @@ function Reservations(props) {
     };
     console.log(formData);
     if (submitAPI(formData) === true) {
-      navigate("/confirmation");
+      navigate("/confirmation", {state: formData});
     }
   };
 
