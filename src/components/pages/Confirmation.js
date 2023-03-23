@@ -1,5 +1,3 @@
-function Confirmation() {
-
-}
+function Confirmation() {}
 
 export default Confirmation;

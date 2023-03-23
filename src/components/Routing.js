@@ -1,10 +1,11 @@
 import { Routes, Route } from "react-router-dom";
-import Home from './pages/Home'
-import About from './pages/About'
-import Reservations from './pages/Reservations'
-import Order from './pages/Order'
-import Login from './pages/Login'
-import Confirmation from './pages/Confirmation'
+import Home from "./pages/Home";
+import Menu from "./pages/Menu";
+import About from "./pages/About";
+import Booking from "./pages/Booking";
+import Order from "./pages/Order";
+import Login from "./pages/Login";
+import Confirmation from "./pages/Confirmation";
 
 export default function Routing() {
   return (
@@ -12,8 +13,9 @@ export default function Routing() {
       <Route path="/" element={<Home />} />
 
       <Route path="/about" element={<About />} />
+      <Route path="/menu" element={<Menu />} />
 
-      <Route path="/reservations" element={<Reservations />} />
+      <Route path="/reservations" element={<Booking />} />
 
       <Route path="/order" element={<Order />} />
       <Route path="/login" element={<Login />} />

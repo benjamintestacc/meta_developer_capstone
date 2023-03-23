@@ -1,21 +1,21 @@
-#testimonials{
-    display: flex;
-    flex-direction: column;
-    margin: 50px;
+#testimonials {
+  display: flex;
+  flex-direction: column;
+  margin: 50px;
 }
 
-#testimonials-cards-list{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
+#testimonials-cards-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
 }
 
-.testimonials-card{
-    width: 100%;
+.testimonials-card {
+  width: 100%;
 }
 
-img{
-    height: auto;
-    width: 100%;
-    object-fit: cover;
+img {
+  height: auto;
+  width: 100%;
+  object-fit: cover;
 }

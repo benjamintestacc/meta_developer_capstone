@@ -1,21 +1,21 @@
-#specials{
-    display: flex;
-    flex-direction: column;
-    margin: 50px;
+#specials {
+  display: flex;
+  flex-direction: column;
+  margin: 50px;
 }
 
-#specials-cards-list{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+#specials-cards-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
 }
 
-.specials-card{
-    width: 100%;
+.specials-card {
+  width: 100%;
 }
 
-img{
-    height: auto;
-    width: 100%;
-    object-fit: cover;
+img {
+  height: auto;
+  width: 100%;
+  object-fit: cover;
 }

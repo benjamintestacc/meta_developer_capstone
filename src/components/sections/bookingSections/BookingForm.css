@@ -1,0 +1,38 @@
+#bookingsection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  padding: 20px;
+}
+
+#bookingform {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+}
+
+input,
+select,
+option,
+textarea {
+  background-color: #eeeeee;
+  border: none;
+  padding: 5px 5px 5px 5px;
+  border-radius: 0.2rem;
+  resize: none;
+  margin-top: 10px;
+}
+
+input,
+select,
+option {
+  width: 20rem;
+}
